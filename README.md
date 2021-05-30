@@ -5,7 +5,7 @@
 ## 程式架構
 大架構主要分為RN、DatabaseManager、Database三個部分.  
 ### React Native 
-將程式分為數個Login、Main兩個大頁面，之後再將Main頁面分成帳單以及朋友兩個部分，之後再撰寫每個頁面之間資料的溝通以及與API後端的串接。主要用到的元件除了有基本的Text、Button之外，還使用了SectionList、FlatList、Navigation.....等等。比較麻煩的是RN再class
+將程式分為數個Login、Main兩個大頁面，之後再將Main頁面分成帳單以及朋友兩個部分，之後再撰寫每個頁面之間資料的溝通以及與API後端的串接。主要用到的元件除了有基本的Text、Button之外，還使用了SectionList、FlatList、Navigation.....等等。比較麻煩的是RN在Class與
 Function之間的切換，還有中間傳值傳Callback的方法需要熟悉。
 
    
